@@ -4,6 +4,7 @@ The static website of the Alcove app, at https://alcovecal.app. It is served by 
 
 - `index.html`: home page
 - `privacy.html`: privacy policy (Google needs it for sign-in verification)
+- `terms.html`: terms of service
 - `style.css`, `assets/`, `fonts/`: look and brand files (Fraunces is under the OFL, see `fonts/OFL.txt`)
 - `CNAME`: the custom domain
 
