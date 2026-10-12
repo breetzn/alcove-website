@@ -109,6 +109,28 @@ main {
   font-size: 0.95rem;
 }
 
+.hero .stores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.stores a {
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--ember);
+  color: #1b1613;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.stores a:hover {
+  filter: brightness(1.08);
+}
+
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
